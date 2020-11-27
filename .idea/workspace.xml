@@ -2,131 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2fd288b-6c96-4351-803e-5225bfd407d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/VOIS-Task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/build/test-results/test-report/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/build/test-results/test-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/build/test-results/test-report/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/build/test-results/test-report/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/build/test-results/test-report/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/main/java/apitUtilities/ApiMethodHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/main/java/apitUtilities/ApiRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/main/java/apitUtilities/Endpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/main/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/main/resources/extentConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/apiRequests/ApiRequests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/stepDefinitions/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/stepDefinitions/testSteps/CreatePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/stepDefinitions/testSteps/GetAPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/stepDefinitions/testSteps/GetAllPosts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/resources/JsonSchemas/ListOfPosts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/resources/JsonSchemas/PostBody.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/CreatePost.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/GetAllPosts.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/GetApost.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/ApiMethodHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/ApiRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/Endpoints.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/classes/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/classes/extentConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/TEST-runners.Runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/runners.Runner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/JsonSchemas/ListOfPosts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/JsonSchemas/PostBody.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/apiRequests/ApiRequests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/featureFiles/AccessManagement/CreatePost.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/featureFiles/AccessManagement/GetAllPosts.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/featureFiles/AccessManagement/GetApost.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/CreatePost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/GetAPost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/GetAllPosts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/src/main/java/Environments/EnviromnetHandler/EnvironmentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/src/main/java/Environments/TestingEnv/Domain.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/src/main/java/base/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/target/classes/Environments/EnviromnetHandler/EnvironmentHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/target/classes/base/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VOIS_TechnicalTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/Drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/LandPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/SigInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/resources/extentConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/Utilities/MethodHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/base/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/TestSteps/CartModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/TestSteps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/TestSteps/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/hooks/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/CartCheckout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/CreateAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/BasePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/HomePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/LandPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/RegistrationPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/SigInPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/extentConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/TEST-runners.Runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/runners.Runner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/Utilities/MethodHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/base/Base.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/CartCheckout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/CreateAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/CartModule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/ScreenShots/User try to create an account with valid data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebUI-TestModule/ScreenShots/User try to login with valid email and password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/Utilities/MethodHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/Utilities/MethodHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/hooks/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/LandPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/LandPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/SigInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/SigInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/Utilities/MethodHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/Utilities/MethodHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/base/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/CartModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/CartModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/Spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/tag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +76,7 @@
       <recent name="F:\Prossional Courses\POC\WebUI-TestModule\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="JUnit.Runner (1)">
     <configuration name="Scenario: User Try to get All posts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/GetAllPosts.feature" />
@@ -291,9 +191,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber java.Scenario: User try make an order and cart checkout" />
-        <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="Cucumber java.Scenario: User try to login with valid email and password" />
         <item itemvalue="JUnit.Runner" />
       </list>
@@ -310,7 +210,19 @@
       <option name="presentableId" value="Default" />
       <updated>1605964090912</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create A new framework to handle Vois Technical assessment&#10;&#10;* Create 3 modules 1- WebUI 2-API 3-Common &#10;* create step definitions and gherkin TCs to cover all Happy scenarios for Api and ui &#10;* add runner to handle each module &#10;* add extent report as report after each running&#10;* add pom files to contains the dependencies of each module &#10;* handle environment variables to run multiple environment">
+      <created>1606257566807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606257566807</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create A new framework to handle Vois Technical assessment&#10;&#10;* Create 3 modules 1- WebUI 2-API 3-Common &#10;* create step definitions and gherkin TCs to cover all Happy scenarios for Api and ui &#10;* add runner to handle each module &#10;* add extent report as report after each running&#10;* add pom files to contains the dependencies of each module &#10;* handle environment variables to run multiple environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create A new framework to handle Vois Technical assessment&#10;&#10;* Create 3 modules 1- WebUI 2-API 3-Common &#10;* create step definitions and gherkin TCs to cover all Happy scenarios for Api and ui &#10;* add runner to handle each module &#10;* add extent report as report after each running&#10;* add pom files to contains the dependencies of each module &#10;* handle environment variables to run multiple environment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606242782545">
@@ -329,6 +241,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606146942927" />
+    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1606257559742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606257559742" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606256559409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -337,22 +253,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606256514428" />
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1606257051784">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1606497460386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606257051784" />
-    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1606257051783">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606497460386" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1606497460386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606257051783" />
-    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1606257051782">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606497460386" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1606497460385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606257051782" />
-    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1606257051783">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606497460385" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1606497460386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606257051783" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606497460386" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605975703670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -373,14 +289,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606139006749" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1606256963310">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1606495613191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606256963310" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606495613191" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606257724250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606257724250" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606256942566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606256942566" />
+    <state x="663" y="311" key="git4idea.merge.GitPullDialog" timestamp="1606257858427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606257858427" />
     <state x="342" y="215" key="new project wizard" timestamp="1605968520992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

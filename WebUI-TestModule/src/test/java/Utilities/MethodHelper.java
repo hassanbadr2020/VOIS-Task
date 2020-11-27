@@ -16,10 +16,10 @@ public class MethodHelper {
     /**
      * Method to take screenshot when the test cases fail
      * @param driver
-     * @param screenshotname
+     * @param screenShotName
      */
-    public void captureScreenshot(WebDriver driver, String screenshotname) {
-        Path dest = Paths.get("./Screenshots", screenshotname + ".png");
+    public void captureScreenshot(WebDriver driver, String screenShotName) {
+        Path dest = Paths.get("./Screenshots", screenShotName + ".png");
         try {
             Files.createDirectories(dest.getParent());
             FileOutputStream out = new FileOutputStream(dest.toString());

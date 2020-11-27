@@ -1,6 +1,10 @@
 package stepDefinitions.hooks;
 
+import Utilities.MethodHelper;
 import base.Base;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java8.En;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -11,29 +15,13 @@ import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks extends Base implements En {
-
+    MethodHelper methodHelper = new MethodHelper();
     private Base base;
+    public String downloadPath = System.getProperty("user.dir") + "\\ScreenShots";
 
     public Hooks(Base base) {
         this.base = base;
-
-        Before(1, () -> {
-
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
-            base.driver = new ChromeDriver(chromeOption());
-            base.driver.manage().window().maximize();
-            base.driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-            base.driver.navigate().to("http://automationpractice.com/index.php");
-
-        });
-
-        After(1, () -> {
-            base.driver.quit();
-
-        });
     }
-
-    public String downloadPath = System.getProperty("user.dir") + "\\Downloads";
 
     public FirefoxOptions firefoxOption() {
         FirefoxOptions option = new FirefoxOptions();
@@ -53,5 +41,23 @@ public class Hooks extends Base implements En {
         options.setExperimentalOption("prefs", chromePrefs);
         options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
         return options;
+    }
+
+    @Before
+    public void getStart(Scenario scenario) {
+
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+        base.driver = new ChromeDriver(chromeOption());
+        base.driver.manage().window().maximize();
+        base.driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+        base.driver.navigate().to("http://automationpractice.com/index.php");
+    }
+
+    @After
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            methodHelper.captureScreenshot(base.driver, scenario.getName());
+        }
+        base.driver.quit();
     }
 }
