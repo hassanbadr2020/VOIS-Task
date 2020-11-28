@@ -10,7 +10,7 @@ public class LandPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//header/div[2]/div[1]/div[1]/nav[1]/div[1]/a[1]")
+    @FindBy(className = "login")
     WebElement loginBtn;
 
     public void clickOnLoginBtn() {

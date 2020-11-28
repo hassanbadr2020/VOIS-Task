@@ -10,13 +10,13 @@ public class SigInPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "//input[@id='email']")
+    @FindBy(id = "email")
     WebElement emailField;
 
-    @FindBy(xpath = "//input[@id='passwd']")
+    @FindBy(id = "passwd")
     WebElement passwordField;
 
-    @FindBy(xpath = "//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]")
+    @FindBy(name = "SubmitLogin")
     WebElement loginBtn;
 
     @FindBy(id = "email_create")
@@ -25,6 +25,8 @@ public class SigInPage extends BasePage {
     @FindBy(id = "SubmitCreate")
     WebElement createAccountBtn;
 
+    @FindBy(xpath = "//div[@id='center_column']/div[1]//li")
+    WebElement errorMessage;
 
     //Actions needed login fields
     public void login(String email, String password) {
@@ -41,8 +43,14 @@ public class SigInPage extends BasePage {
     public void validateEmail(String email) {
         setTextElementText(emailCreate, email);
     }
+
     public void clickonCreateAnAccount() {
         clickButton(createAccountBtn);
+    }
+
+    public String getActualMessage() {
+        String actualErrorMessage = getTextElement(errorMessage);
+        return actualErrorMessage;
     }
 
 }

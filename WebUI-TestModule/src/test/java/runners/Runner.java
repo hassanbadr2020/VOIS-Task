@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/featureFiles"
         , glue = {"stepDefinitions"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:testOutput/HtmlReport/ExtentHtml.html"},
-        tags = {"@registration or @login or @cartCheckout"}
+        tags = {"@login"}
 )
 
 public class Runner {

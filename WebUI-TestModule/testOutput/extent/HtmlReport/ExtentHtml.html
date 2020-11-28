@@ -53,7 +53,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Nov 28, 2020 10:18:48 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Nov 28, 2020 11:56:57 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -80,8 +80,6 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@cartCheckout</a></li>
-					<li><a href='#'>@registration</a></li>
 					<li><a href='#'>@login</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
@@ -123,7 +121,7 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
@@ -137,7 +135,7 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -153,7 +151,7 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>31</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>25</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
@@ -178,8 +176,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>User do Cart Checkout</span>
-						<span class='test-time'>Nov 28, 2020 10:19:00 AM</span>
+						<span class='test-name'>User Login</span>
+						<span class='test-time'>Nov 28, 2020 11:57:10 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -190,195 +188,142 @@
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 <div class='scenario outline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 18s+156ms</span>
-	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: User try make an order and cart checkout</div>
-		<table class='runtime-table table-striped table'><tr><td>email</td><td>password</td></tr><tr><td>mmmm@mmm.com</td><td>Aa123456@</td></tr></table>
-	</div>
-	<ul class='steps'>
-		<li test-id='3' class='node scenario pass' status='pass'>
-			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try make an order and cart checkout</div>
-			<ul class='gc steps'>
-				<li test-id='5' class='gc given pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='6' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='7' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "mmmm@mmm.com" "Aa123456@"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='8' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='9' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.iMInTheHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I'm in the home page</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='10' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.clickOnTheHomePageButton()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the home page button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='11' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.selectFromTheDisplayedProducts(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Select "Faded Short Sleeve T-shirts" from the displayed products</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='12' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.clickOnTheAddToCartButton()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the add to cart button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='13' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.proceedToCheckOutWith(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And proceed to check out with "There is 1 item in your cart."</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='14' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.proceedWithACommentInTheAddress(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And proceed with a comment in the address "Please call me when arrive"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='15' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.proceedWithTheShippingCostWithAgreeOnTheTermsOfService()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And proceed with the shipping cost with agree on the terms of service</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='16' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.theQuantityIHaveSelectedIs(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And the quantity i have selected is "1"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='17' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.theUnitIHaveSelectedIs(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And the unit i have selected is "Faded Short Sleeve T-shirts"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='18' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.selectThePaymentWayIs(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And select the payment way is "BANK-WIRE PAYMENT."</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='19' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.clickOnTheButton(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the "I confirm my order" button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='20' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.CartModule.theOrderHasBeenCreatedSuccessfully(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then the order has been created successfully with message "Your order on My Store is complete."</h6>
-					<div class="node-step"></div>
-				</li>
-			</ul>
-		</li>
-	</ul>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='22'>
-					<div class='test-heading'>
-						<span class='test-name'>Registration</span>
-						<span class='test-time'>Nov 28, 2020 10:19:28 AM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class="sr-filters bdd-filters">
-	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
-	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
-	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
-	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
-</div>
-<div class='scenario outline node' test-id='23' status='pass'>
-	<span class='duration right label'>0h 0m 8s+473ms</span>
-	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: User try to create an account with valid data</div>
-		<table class='runtime-table table-striped table'><tr><td>email</td><td>gender</td><td>firstName</td><td>lastName</td><td>password</td><td>day</td><td>month</td><td>year</td><td>newsletter</td><td>option</td><td>address</td><td>city</td><td>state</td><td>zipCode</td><td>Country</td><td>mobilePhone</td><td>alias</td></tr><tr><td>FakerGenerated</td><td>male</td><td>Test</td><td>Test</td><td>123456</td><td>27</td><td>5</td><td>2010</td><td>1</td><td>0</td><td>CairoTest</td><td>Cairo</td><td>Alabama</td><td>12345</td><td>United States</td><td>0112345698</td><td>Test</td></tr></table>
-	</div>
-	<ul class='steps'>
-		<li test-id='24' class='node scenario pass' status='pass'>
-			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try to create an account with valid data</div>
-			<ul class='gc steps'>
-				<li test-id='26' class='gc given pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='27' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='28' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.redirectedToTheLoginPage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Redirected to the login page</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='29' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.enterEmailValid(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When Enter email valid "FakerGenerated"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='30' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.clickOnTheCreateAnAccountButton()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Click on the Create An Account button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='31' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.redirectedToContinueRegistrationPage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Redirected to continue registration page</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='32' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.fillAllTheRequiredFieldsOfPersonalInformationSectionAndDataOfBirthIsAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Fill all the required fields of personal information section "male" , "Test", "Test" ,"123456" and data of birth is "27", "5" and "2010" and "1" and "0"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='33' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.fillAllTheRequeiredFieldsOfTheYourAddressSectionAnd(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And Fill all the required fields of the your Address section "CairoTest", "Cairo", "Alabama", "12345", "United States", "0112345698" and "Test"</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='34' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.clickOnRegisterButton()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on Register button</h6>
-					<div class="node-step"></div>
-				</li>
-				<li test-id='35' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.Registration.theAccountHasBeenCreatedSuccessfully()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then the account has been created successfully</h6>
-					<div class="node-step"></div>
-				</li>
-			</ul>
-		</li>
-	</ul>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='37'>
-					<div class='test-heading'>
-						<span class='test-name'>User Login</span>
-						<span class='test-time'>Nov 28, 2020 10:19:47 AM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class="sr-filters bdd-filters">
-	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
-	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
-	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
-	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
-</div>
-<div class='scenario outline node' test-id='38' status='pass'>
-	<span class='duration right label'>0h 0m 3s+575ms</span>
+	<span class='duration right label'>0h 0m 7s+656ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: User try to login with valid email and password</div>
 		<table class='runtime-table table-striped table'><tr><td>email</td><td>password</td></tr><tr><td>mmmm@mmm.com</td><td>Aa123456@</td></tr></table>
 	</div>
 	<ul class='steps'>
-		<li test-id='39' class='node scenario pass' status='pass'>
+		<li test-id='3' class='node scenario pass' status='pass'>
 			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try to login with valid email and password</div>
 			<ul class='gc steps'>
-				<li test-id='41' class='gc given pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
+				<li test-id='5' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='42' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
+				<li test-id='6' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='43' class='gc when pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "mmmm@mmm.com" "Aa123456@"</h6>
+				<li test-id='7' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "mmmm@mmm.com" "Aa123456@"</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='44' class='gc and pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
+				<li test-id='8' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
 					<div class="node-step"></div>
 				</li>
-				<li test-id='45' class='gc then pass' status='pass'>
-					<h6 class="step-name" title="stepDefinitions.TestSteps.LoginSteps.iMInTheHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I'm in the home page</h6>
+				<li test-id='9' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.iMInTheHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then I'm in the home page</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class='scenario outline node' test-id='11' status='pass'>
+	<span class='duration right label'>0h 0m 46s+73ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: User try to login with invalid credentials</div>
+		<table class='runtime-table table-striped table'><tr><td>email</td><td>password</td><td>errorMessage</td></tr><tr><td>mmmm@mmm.com</td><td>Aa123456</td><td>Authentication failed.</td></tr><tr><td>mmm@mmm.com</td><td>Aa123456@</td><td>Authentication failed.</td></tr><tr><td>mmmm@mmm.com</td><td></td><td>Password is required.</td></tr><tr><td></td><td>Aa123456@</td><td>An email address required.</td></tr></table>
+	</div>
+	<ul class='steps'>
+		<li test-id='12' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try to login with invalid credentials</div>
+			<ul class='gc steps'>
+				<li test-id='14' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='15' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='16' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "mmmm@mmm.com" "Aa123456"</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='17' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='18' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.systemDisplaysAnErrorMessageSays(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then system displays an error message says "Authentication failed."</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
+		</li>
+		<li test-id='20' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try to login with invalid credentials</div>
+			<ul class='gc steps'>
+				<li test-id='22' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='23' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='24' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "mmm@mmm.com" "Aa123456@"</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='25' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='26' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.systemDisplaysAnErrorMessageSays(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then system displays an error message says "Authentication failed."</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
+		</li>
+		<li test-id='28' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try to login with invalid credentials</div>
+			<ul class='gc steps'>
+				<li test-id='30' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='31' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='32' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "mmmm@mmm.com" ""</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='33' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='34' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.systemDisplaysAnErrorMessageSays(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then system displays an error message says "Password is required."</h6>
+					<div class="node-step"></div>
+				</li>
+			</ul>
+		</li>
+		<li test-id='36' class='node scenario pass' status='pass'>
+			<div class="step-name" title=""><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>User try to login with invalid credentials</div>
+			<ul class='gc steps'>
+				<li test-id='38' class='gc given pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.iInHomePage()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given A user in the home page</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='39' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheSigninBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the signIn button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='40' class='gc when pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.enterUserNameAndPassword(java.lang.String,java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When user enter name and password in fields "" "Aa123456@"</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='41' class='gc and pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.clickOnTheLoginBtn()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And click on the login button</h6>
+					<div class="node-step"></div>
+				</li>
+				<li test-id='42' class='gc then pass' status='pass'>
+					<h6 class="step-name" title="stepDefinitions.testSteps.LoginSteps.systemDisplaysAnErrorMessageSays(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then system displays an error message says "An email address required."</h6>
 					<div class="node-step"></div>
 				</li>
 			</ul>
@@ -427,90 +372,14 @@
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@cartCheckout</span>
-						<span class='category-status right'>
-						<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Nov 28, 2020 10:19:00 AM</td>
-										<td class='linked' test-id='1'>User do Cart Checkout</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Nov 28, 2020 10:19:00 AM</td>
-										<td class='linked' test-id='3'>User try make an order and cart checkout</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@registration</span>
-						<span class='category-status right'>
-						<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Nov 28, 2020 10:19:28 AM</td>
-										<td class='linked' test-id='22'>Registration</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-									<tr>
-										<td>Nov 28, 2020 10:19:28 AM</td>
-										<td class='linked' test-id='24'>User try to create an account with valid data</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
 						<span class='category-name'>@login</span>
 						<span class='category-status right'>
-						<span class='label pass'>1</span>
+						<span class='label pass'>5</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 5</span>
 							
 							
 						</div>
@@ -525,13 +394,33 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Nov 28, 2020 10:19:47 AM</td>
-										<td class='linked' test-id='37'>User Login</td>
+										<td>Nov 28, 2020 11:57:10 AM</td>
+										<td class='linked' test-id='1'>User Login</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Nov 28, 2020 10:19:47 AM</td>
-										<td class='linked' test-id='39'>User try to login with valid email and password</td>
+										<td>Nov 28, 2020 11:57:10 AM</td>
+										<td class='linked' test-id='3'>User try to login with valid email and password</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 28, 2020 11:57:29 AM</td>
+										<td class='linked' test-id='12'>User try to login with invalid credentials</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 28, 2020 11:57:43 AM</td>
+										<td class='linked' test-id='20'>User try to login with invalid credentials</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 28, 2020 11:57:56 AM</td>
+										<td class='linked' test-id='28'>User try to login with invalid credentials</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 28, 2020 11:58:10 AM</td>
+										<td class='linked' test-id='36'>User try to login with invalid credentials</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -556,37 +445,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>1</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>31</div>
+					<div class='panel-lead'>25</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Nov 28, 2020 10:18:48 AM</div>
+					<div class='panel-lead'>Nov 28, 2020 11:56:57 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Nov 28, 2020 10:19:51 AM</div>
+			 		<div class='panel-lead'>Nov 28, 2020 11:58:16 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 1m 2s+885ms</div>
+					<div class='panel-lead'>0h 1m 18s+457ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -602,30 +491,12 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@cartCheckout</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									50%
-							</td>
-						</tr>
-						<tr>
-							<td>@registration</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									50%
-							</td>
-						</tr>
-						<tr>
 							<td>@login</td>
-							<td>1</td>
+							<td>5</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
-									50%
+									83.333%
 							</td>
 						</tr>
 					</table>
@@ -639,16 +510,16 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 3,
-				passParent: 3,
+                parentCount: 1,
+				passParent: 1,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
 				exceptionsParent: 0,
-				childCount: 3,
-				passChild: 3,
+				childCount: 5,
+				passChild: 5,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -657,8 +528,8 @@
 				infoChild: 0,
 				debugChild: 0,
 				exceptionsChild: 0,
-				grandChildCount: 31,
-				passGrandChild: 31,
+				grandChildCount: 25,
+				passGrandChild: 25,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -671,7 +542,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "User do Cart Checkout":18.156,"Registration":8.473,"User Login":3.575
+			        "User Login":65.206
 			};
 		</script>
 	

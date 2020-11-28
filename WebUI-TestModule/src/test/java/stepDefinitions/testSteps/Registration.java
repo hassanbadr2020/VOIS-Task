@@ -1,4 +1,4 @@
-package stepDefinitions.TestSteps;
+package stepDefinitions.testSteps;
 
 import Pages.RegistrationPage;
 import Pages.SigInPage;

@@ -1,4 +1,4 @@
-package stepDefinitions.TestSteps;
+package stepDefinitions.testSteps;
 
 import base.Base;
 import io.cucumber.java.en.And;

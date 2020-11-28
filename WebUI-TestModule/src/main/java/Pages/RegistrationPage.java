@@ -18,19 +18,19 @@ public class RegistrationPage extends BasePage {
     @FindBy(id = "id_gender2")
     WebElement MrsRadioBtn;
 
-    @FindBy(xpath = "//input[@id='customer_firstname']")
+    @FindBy(id = "customer_firstname")
     WebElement customerFirstName;
-    @FindBy(xpath = "//input[@id='customer_lastname']")
+    @FindBy(id="customer_lastname")
     WebElement customerLastName;
     @FindBy(id = "passwd")
     WebElement password;
 
     //select  DOB from the Drop down
-    @FindBy(xpath = "//select[@id='days']")
+    @FindBy(id="days")
     WebElement days;
-    @FindBy(xpath = "//select[@id='months']")
+    @FindBy(id="months")
     WebElement months;
-    @FindBy(xpath = "//select[@id='years']")
+    @FindBy(id="years")
     WebElement years;
 
     @FindBy(id = "newsletter")
@@ -43,7 +43,7 @@ public class RegistrationPage extends BasePage {
     WebElement address;
     @FindBy(id = "city")
     WebElement city;
-    @FindBy(xpath = "//select[@id='id_state']")
+    @FindBy(id= "id_state")
     WebElement state;
     @FindBy(id = "postcode")
     WebElement postalCode;

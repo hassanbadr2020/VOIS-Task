@@ -1,4 +1,4 @@
-package stepDefinitions.TestSteps;
+package stepDefinitions.testSteps;
 
 import Pages.LandPage;
 import Pages.SigInPage;
@@ -44,5 +44,12 @@ public class LoginSteps extends Base {
     @Then("I'm in the home page")
     public void iMInTheHomePage() {
         Assert.assertTrue(base.driver.getCurrentUrl().contains("my-account"));
+    }
+
+    @Then("system displays an error message says {string}")
+    public void systemDisplaysAnErrorMessageSays(String errorMessage) {
+        sigInPage = new SigInPage(base.driver);
+        sigInPage.getActualMessage();
+        Assert.assertEquals(errorMessage, sigInPage.getActualMessage());
     }
 }
