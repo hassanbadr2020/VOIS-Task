@@ -1,7 +1,7 @@
 stepDefinitions\hooks\Hooks.class
-stepDefinitions\TestSteps\Registration.class
+stepDefinitions\testSteps\LoginSteps.class
+stepDefinitions\testSteps\Registration.class
 Utilities\MethodHelper.class
-stepDefinitions\TestSteps\CartModule.class
 runners\Runner.class
+stepDefinitions\testSteps\CartModule.class
 base\Base.class
-stepDefinitions\TestSteps\LoginSteps.class

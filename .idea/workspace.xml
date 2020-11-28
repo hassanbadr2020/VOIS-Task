@@ -3,24 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="e2fd288b-6c96-4351-803e-5225bfd407d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/ScreenShots/User try to create an account with valid data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/ScreenShots/User try to login with valid email and password.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/SigInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/main/java/Pages/SigInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/testSteps/CartModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/testSteps/CartModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/testSteps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/testSteps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/testSteps/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/stepDefinitions/testSteps/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/CreateAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/CreateAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/resources/featureFiles/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/ApiMethodHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/ApiMethodHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/ApiRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/ApiRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/Endpoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/classes/apitUtilities/Endpoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/TEST-runners.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/TEST-runners.Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/runners.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/runners.Runner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/apiRequests/ApiRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/apiRequests/ApiRequests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/CreatePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/CreatePost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/GetAPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/GetAPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/GetAllPosts.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/GetAllPosts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/Spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/classes/Environments/EnviromnetHandler/ConfigurationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common-Utilities/target/classes/Environments/EnviromnetHandler/ConfigurationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/classes/Environments/EnviromnetHandler/DataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common-Utilities/target/classes/Environments/EnviromnetHandler/DataManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/classes/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common-Utilities/target/classes/base/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/LandPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/LandPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/RegistrationPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/SigInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/classes/Pages/SigInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/CreateAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/CreateAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/featureFiles/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/TEST-runners.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/TEST-runners.Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/runners.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/runners.Runner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/Utilities/MethodHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/Utilities/MethodHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/base/Base.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/hooks/Hooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
@@ -241,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606557980174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update element locators">
+      <created>1606565565161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606565565161</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +273,8 @@
     <MESSAGE value="Enhance in framework &#10;&#10;* Added a new method of before and after ech scenario to handle open and close browser&#10;* Add the methodHelper.getscreenshot on failed scenarios." />
     <MESSAGE value="Handle Hard code in the project &#10;&#10;* Add ConfigurationManager class to read the configuration properties.&#10;* Add DataManager class to read data and handle methods of configuration." />
     <MESSAGE value="Add negative scenarios of login module" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add negative scenarios of login module" />
+    <MESSAGE value="Update element locators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update element locators" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606562823938">
@@ -268,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606146942927" />
-    <state x="571" y="65" key="CommitChangelistDialog2" timestamp="1606557976584">
+    <state x="571" y="65" key="CommitChangelistDialog2" timestamp="1606565563087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="65" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606557976584" />
+    <state x="571" y="65" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606565563087" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606256559409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -320,10 +345,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606495613191" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606557990191">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606565571558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606557990191" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606565571558" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606550316712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
