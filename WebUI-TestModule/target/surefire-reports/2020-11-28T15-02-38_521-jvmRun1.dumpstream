@@ -1,0 +1,71 @@
+# Created at 2020-11-28T15:03:05.557
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2020-11-28T15:03:07.568
+Unexpected IOException: 6,1,User do Cart Checkout,User try make an order and cart checkout(User do Cart Checkout),null,null,null
+
+
+# Created at 2020-11-28T15:03:07.986
+Unexpected IOException with stream: 
+
+
+# Created at 2020-11-28T15:03:07.986
+Unexpected IOException with stream: 1
+
+# Created at 2020-11-28T15:03:07.987
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-11-28T15:03:07.987
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2020-11-28T15:03:07.987
+Unexpected IOException with stream: )
+
+# Created at 2020-11-28T15:03:07.987
+Unexpected IOException with stream: 
+
+
+# Created at 2020-11-28T15:03:07.988
+Unexpected IOException with stream: 16
+
+# Created at 2020-11-28T15:03:07.988
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-11-28T15:03:07.988
+Unexpected IOException with stream: [32m16 passed[0m
+
+# Created at 2020-11-28T15:03:07.989
+Unexpected IOException with stream: )
+
+# Created at 2020-11-28T15:03:07.989
+Unexpected IOException with stream: 
+
+
+# Created at 2020-11-28T15:03:07.989
+Unexpected IOException with stream: 0m
+
+# Created at 2020-11-28T15:03:07.990
+Unexpected IOException with stream: 26.989s
+
+# Created at 2020-11-28T15:03:07.990
+Unexpected IOException with stream: 
+
+
+# Created at 2020-11-28T15:03:07.991
+Unexpected IOException with stream: 
+
+
+# Created at 2020-11-28T15:03:07.991
+Unexpected IOException with stream: 
+
+
+# Created at 2020-11-28T15:03:07.991
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,runners.Runner,null,null,null
+
+

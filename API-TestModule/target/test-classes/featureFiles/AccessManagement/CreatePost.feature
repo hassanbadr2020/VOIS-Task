@@ -5,11 +5,12 @@ Feature: user create a post
     Given I send post request with valid credentials
       | title   | body   | userId   |
       | <title> | <body> | <userId> |
-    Then status code is "201"
+    Then status code is "<statusCode>"
     And  the users id of the created body is "<userId>"
     And  response body matches "JsonSchemas/PostBody.json" in Api contract
     Examples:
-      | title | body        | userId |
-      | Test  | RestAssured | 10     |
+      | title | body        | userId | statusCode |
+      | Test  | RestAssured | 10     | 201        |
+
 
 

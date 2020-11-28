@@ -25,7 +25,7 @@ public class CreatePost extends Base implements En {
 
         });
         Then("^status code is \"([^\"]*)\"$", (String statusCode) -> {
-            Assert.assertEquals(base.response.statusCode(), Integer.parseInt(statusCode));
+            Assert.assertEquals(Integer.parseInt(statusCode), base.response.statusCode());
         });
         And("^response error message is \"([^\"]*)\"$", (String expectedMessage) -> {
             Assert.assertEquals(base.response.jsonPath().getString("errors.message"), expectedMessage);

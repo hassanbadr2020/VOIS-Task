@@ -5,11 +5,41 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-TestModule/src/test/java/stepDefinitions/testSteps/CreatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/src/test/java/stepDefinitions/testSteps/CreatePost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/CreatePost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/CreatePost.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/TEST-runners.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/TEST-runners.Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/runners.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/surefire-reports/runners.Runner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/featureFiles/AccessManagement/CreatePost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/featureFiles/AccessManagement/CreatePost.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/CreatePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/target/test-classes/stepDefinitions/testSteps/CreatePost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Logger/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/Spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/API-TestModule/testOutput/extent/Spark/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/classes/META-INF/Common-Utilities.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Common-Utilities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/ScreenShots/Verify user can't register with invalid data.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/ScreenShots/Verify user can't register with invalid data.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/src/test/java/base/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/TEST-runners.Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/TEST-runners.Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/runners.Runner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/surefire-reports/runners.Runner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/CartModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/CartModule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/LoginSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/target/test-classes/stepDefinitions/TestSteps/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/HtmlReport/ExtentHtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/exception.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Logger/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/Spark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/exception.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/exception.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebUI-TestModule/testOutput/extent/Spark/tag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +78,18 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/Common-Utilities/src/main/resources" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Prossional Courses\POC\WebUI-TestModule\src\test\resources\featureFiles" />
+      <recent name="F:\Prossional Courses\POC\WebUI-TestModule\Drivers" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Prossional Courses\POC\WebUI-TestModule\src\main\resources" />
       <recent name="F:\Prossional Courses\POC\WebUI-TestModule\Drivers" />
       <recent name="F:\Prossional Courses\POC\API-TestModule\src\main\resources" />
       <recent name="F:\Prossional Courses\POC\API-TestModule\src\test\resources\JsonSchemas" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Prossional Courses\POC\WebUI-TestModule\src\test\resources\featureFiles" />
-      <recent name="F:\Prossional Courses\POC\WebUI-TestModule\Drivers" />
-    </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User try to create a post with valid data">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Scenario: User try to create a post with valid data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/API-TestModule/src/test/resources/featureFiles/AccessManagement/CreatePost.feature" />
@@ -174,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber java.Scenario: User try to create a post with valid data" />
         <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="Cucumber java.Scenario: Verify user can't register with invalid data" />
         <item itemvalue="Cucumber java.Scenario: Verify user can't register with registered email" />
-        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606566195310</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update element locators">
+      <created>1606568497731</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606568497731</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606146942927" />
-    <state x="571" y="65" key="CommitChangelistDialog2" timestamp="1606566190931">
+    <state x="571" y="65" key="CommitChangelistDialog2" timestamp="1606568497128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="65" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606566190931" />
+    <state x="571" y="65" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606568497128" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606256559409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -275,22 +312,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606256514428" />
-    <state width="1877" height="380" key="GridCell.Tab.0.bottom" timestamp="1606566840816">
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom" timestamp="1606571325095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606566840816" />
-    <state width="1877" height="380" key="GridCell.Tab.0.center" timestamp="1606566840816">
+    <state width="1877" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606571325095" />
+    <state width="1877" height="380" key="GridCell.Tab.0.center" timestamp="1606571325095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606566840816" />
-    <state width="1877" height="380" key="GridCell.Tab.0.left" timestamp="1606566840816">
+    <state width="1877" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606571325095" />
+    <state width="1877" height="380" key="GridCell.Tab.0.left" timestamp="1606571325095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606566840816" />
-    <state width="1877" height="380" key="GridCell.Tab.0.right" timestamp="1606566840816">
+    <state width="1877" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606571325095" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right" timestamp="1606571325095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606566840816" />
+    <state width="1877" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606571325095" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605975703670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,14 +352,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606495613191" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606568489262">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606568511062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606568489262" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606550316712">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606568511062" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1606571764940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606550316712" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606571764940" />
     <state x="663" y="311" key="git4idea.merge.GitPullDialog" timestamp="1606497671231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
