@@ -1,5 +1,6 @@
 package stepDefinitions.hooks;
 
+import Environments.EnviromnetHandler.DataManager;
 import Utilities.MethodHelper;
 import base.Base;
 import io.cucumber.java.After;
@@ -16,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Hooks extends Base implements En {
     MethodHelper methodHelper = new MethodHelper();
+    DataManager dataManager = new DataManager();
     private Base base;
     public String downloadPath = System.getProperty("user.dir") + "\\ScreenShots";
 
@@ -45,12 +47,11 @@ public class Hooks extends Base implements En {
 
     @Before
     public void getStart(Scenario scenario) {
-
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
         base.driver = new ChromeDriver(chromeOption());
         base.driver.manage().window().maximize();
         base.driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-        base.driver.navigate().to("http://automationpractice.com/index.php");
+        base.driver.navigate().to(dataManager.getUIUrl());
     }
 
     @After

@@ -2,6 +2,7 @@ package stepDefinitions.hooks;
 
 import base.Base;
 import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
 import io.cucumber.java8.En;
 
 public class Hooks extends Base implements En {
@@ -11,9 +12,9 @@ public class Hooks extends Base implements En {
         this.base = base;
     }
 
-    @After(order = 1)
-    public void afterScenario() {
-        base.response.getBody().asString();
+    @After
+    public void afterScenario(Scenario scenario) {
+        base.response.prettyPrint();
     }
 
 

@@ -6,15 +6,23 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class EnvironmentHandler {
+public class ConfigurationManager {
     String environment = null;
     Properties environmentProperties = null;
 
-    public EnvironmentHandler() {
+    private static ConfigurationManager configurationManager;
+
+    public ConfigurationManager() {
         setEnvironment();
         setEnvironmentProperties();
     }
 
+    public static ConfigurationManager getConfigurationManager() {
+        if (configurationManager == null) {
+            configurationManager = new ConfigurationManager();
+        }
+        return configurationManager;
+    }
 
     private void setEnvironment() {
 
@@ -57,11 +65,4 @@ public class EnvironmentHandler {
             e.printStackTrace();
         }
     }
-
-    public String getApiUri() {
-        String apiUri = environmentProperties.getProperty("apiURI");
-        return apiUri;
-    }
-
-
 }
