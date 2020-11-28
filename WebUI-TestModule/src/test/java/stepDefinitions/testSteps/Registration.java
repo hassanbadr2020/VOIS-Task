@@ -27,7 +27,9 @@ public class Registration extends Base {
     @When("Enter email valid {string}")
     public void enterEmailValid(String email) {
         sigInPage = new SigInPage(base.driver);
-        email = methodHelper.generateFakeEmail(email);
+        if (email.equals("FakerGenerated")) {
+            email = methodHelper.generateFakeEmail(email);
+        }
         sigInPage.validateEmail(email);
     }
 
@@ -71,5 +73,10 @@ public class Registration extends Base {
         Assert.assertTrue(base.driver.getCurrentUrl().contains("my-account"));
     }
 
+    @Then("system will deisolay message says {string}")
+    public void systemWillDeisolayMessageSays(String expectedErrorMessage) {
+        registrationPage = new RegistrationPage(base.driver);
+        Assert.assertEquals(expectedErrorMessage, registrationPage.getActualErrorMessage());
 
+    }
 }

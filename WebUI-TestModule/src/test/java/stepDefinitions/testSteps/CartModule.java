@@ -17,7 +17,7 @@ public class CartModule extends Base {
 
     @And("click on the home page button")
     public void clickOnTheHomePageButton() {
-        WebElement homepageBtn = base.driver.findElement(By.xpath("//body/div[@id='page']/div[2]/div[1]/div[1]/a[1]"));
+        WebElement homepageBtn = base.driver.findElement(By.xpath("//a[@class='home']"));
         homepageBtn.click();
     }
 
@@ -35,14 +35,10 @@ public class CartModule extends Base {
 
     @And("proceed to check out with {string}")
     public void proceedToCheckOutWith(String itemInCart) {
-//        WebElement itemsInCart= base.driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/h2[1]/span[2]"));
-//        String text=itemsInCart.getText();
-//        Assert.assertEquals(itemInCart,text);
-
-        WebElement btnproceed = base.driver.findElement(By.xpath("//header/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]"));
+        WebElement btnproceed = base.driver.findElement(By.xpath("//a[@class='btn btn-default button button-medium']"));
         btnproceed.click();
 
-        WebElement proceedsecond = base.driver.findElement(By.xpath("//body/div[@id='page']/div[2]/div[1]/div[3]/div[1]/p[2]/a[1]"));
+        WebElement proceedsecond = base.driver.findElement(By.xpath("//a[@class='button btn btn-default standard-checkout button-medium']"));
         proceedsecond.click();
     }
 
@@ -99,8 +95,8 @@ public class CartModule extends Base {
     @Then("the order has been created successfully with message {string}")
     public void theOrderHasBeenCreatedSuccessfully(String expectedResult) {
         WebElement confirmEmail = base.driver.findElement(By.xpath("//p[@class='cheque-indent']/strong"));
-       String actualResult= confirmEmail.getText();
+        String actualResult = confirmEmail.getText();
 
-       Assert.assertEquals(expectedResult,actualResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 }

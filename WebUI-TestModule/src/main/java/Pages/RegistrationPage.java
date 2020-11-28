@@ -20,17 +20,17 @@ public class RegistrationPage extends BasePage {
 
     @FindBy(id = "customer_firstname")
     WebElement customerFirstName;
-    @FindBy(id="customer_lastname")
+    @FindBy(id = "customer_lastname")
     WebElement customerLastName;
     @FindBy(id = "passwd")
     WebElement password;
 
     //select  DOB from the Drop down
-    @FindBy(id="days")
+    @FindBy(id = "days")
     WebElement days;
-    @FindBy(id="months")
+    @FindBy(id = "months")
     WebElement months;
-    @FindBy(id="years")
+    @FindBy(id = "years")
     WebElement years;
 
     @FindBy(id = "newsletter")
@@ -43,7 +43,7 @@ public class RegistrationPage extends BasePage {
     WebElement address;
     @FindBy(id = "city")
     WebElement city;
-    @FindBy(id= "id_state")
+    @FindBy(id = "id_state")
     WebElement state;
     @FindBy(id = "postcode")
     WebElement postalCode;
@@ -57,6 +57,9 @@ public class RegistrationPage extends BasePage {
     //Register Button
     @FindBy(id = "submitAccount")
     WebElement registerBtn;
+
+    @FindBy(xpath = "//div[@id='center_column']//li")
+    WebElement errorMessage;
 
     public void selectGender(String gender) {
         if (gender.equals("male")) {
@@ -123,6 +126,11 @@ public class RegistrationPage extends BasePage {
     //Register Button Action
     public void register() {
         clickButton(registerBtn);
+    }
+
+    public String getActualErrorMessage() {
+        String actualErrorMessage = getTextElement(errorMessage);
+        return actualErrorMessage;
     }
 
 }

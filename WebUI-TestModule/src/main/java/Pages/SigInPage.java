@@ -26,7 +26,10 @@ public class SigInPage extends BasePage {
     WebElement createAccountBtn;
 
     @FindBy(xpath = "//div[@id='center_column']/div[1]//li")
-    WebElement errorMessage;
+    WebElement errorMessagelogin;
+
+    @FindBy(xpath = "//div[@id='create_account_error']//li")
+    WebElement errorMessageCreateAccount;
 
     //Actions needed login fields
     public void login(String email, String password) {
@@ -48,9 +51,15 @@ public class SigInPage extends BasePage {
         clickButton(createAccountBtn);
     }
 
-    public String getActualMessage() {
-        String actualErrorMessage = getTextElement(errorMessage);
+    public String getActualMessage(String page) {
+        String actualErrorMessage = null;
+        if (page.equals("login")) {
+            actualErrorMessage = getTextElement(errorMessagelogin);
+        } else {
+            actualErrorMessage = getTextElement(errorMessageCreateAccount);
+        }
         return actualErrorMessage;
     }
+
 
 }

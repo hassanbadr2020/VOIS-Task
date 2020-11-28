@@ -46,10 +46,9 @@ public class LoginSteps extends Base {
         Assert.assertTrue(base.driver.getCurrentUrl().contains("my-account"));
     }
 
-    @Then("system displays an error message says {string}")
-    public void systemDisplaysAnErrorMessageSays(String errorMessage) {
+    @Then("In {string} system displays an error message says {string}")
+    public void systemDisplaysAnErrorMessageSays(String page,String errorMessage) {
         sigInPage = new SigInPage(base.driver);
-        sigInPage.getActualMessage();
-        Assert.assertEquals(errorMessage, sigInPage.getActualMessage());
+        Assert.assertEquals(errorMessage,  sigInPage.getActualMessage(page));
     }
 }

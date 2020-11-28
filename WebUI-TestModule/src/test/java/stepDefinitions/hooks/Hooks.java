@@ -11,7 +11,6 @@ public class Hooks extends Base implements En {
     MethodHelper methodHelper = new MethodHelper();
     private Base base;
 
-
     public Hooks(Base base) {
         this.base = base;
     }

@@ -16,7 +16,7 @@ Feature: User Login
     And    click on the signIn button
     When   user enter name and password in fields "<email>" "<password>"
     And    click on the login button
-    Then   system displays an error message says "<errorMessage>"
+    Then   In "login" system displays an error message says "<errorMessage>"
     Examples:
       | email        | password  | errorMessage               |
       #Valid Email and invalid Password
